@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url(Registro.png);
+}
+.caja_grande{
+    align-items: center;
+    width: 750px;
+    height: 400px;
+    margin: 110px;
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.form{
+    padding-left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .caja_grande{
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    margin: 25px;
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.form{
+    padding-left: 70px;
+}
+}
